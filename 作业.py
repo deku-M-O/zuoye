@@ -3,7 +3,7 @@ def os(a,b):
     for i in range(a,b+1):
         if i%2==0:
             e.append(i)
-    print(a)
+    print(e)
 os(1,100)
 
 class Os:
@@ -12,5 +12,6 @@ class Os:
         for i in range(a,b+1):
             if i%2==0:
                 e.append(i)
-        print(a)
-h=Os
+        print(e)
+h=Os()
+h.tq(1,100)
