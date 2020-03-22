@@ -1,7 +1,7 @@
 def os(a,b):
-    a=[]
+    e=[]
     for i in range(a,b+1):
         if i%2==0:
-            a.append(i)
+            e.append(i)
     print(a)
 os(1,100)
