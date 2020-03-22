@@ -13,5 +13,5 @@ class Os:
             if i%2==0:
                 e.append(i)
         print(e)
-h=Os()
-h.tq(1,100)
+h=Os()     #类的实例化
+h.tq(1,100)   #调用方法
