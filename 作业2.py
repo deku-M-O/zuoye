@@ -5,15 +5,12 @@ def pdzf():
     else:
         print("No")
 pdzf()
-class pdzf():
-    def pd(q):
-        q=1
+class Pdzf:
+    def pd(self):
         a=input("请输入yes: ")
-        while q>0:
-            if a=="yes" or "Yse" or "YES":
-                print("Yse")
-                q=q-1
-            else:
-                print("No")
-                q=q-1
-zifu=pdzf
+        if a=="yes" or a=="Yes" or a=="YES":
+            print("Yse")
+        else:
+            print("No")
+zifu=Pdzf()
+zifu.pd()
