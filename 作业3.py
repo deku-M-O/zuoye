@@ -1,5 +1,4 @@
 e=[1,2,3,4,5,6,7,8,9,10]
-if a%2==0:
-    
-e.append(3)
-print(e)
+a=round(len(e)/2+0.1)     #中间数字
+print(e[0:a])            #0~中间位置
+print([a:len(e)])         #中间位置~最后位置
