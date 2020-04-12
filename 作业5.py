@@ -5,7 +5,9 @@ while e!=0:
     e=a//2
     b.append(a%2)
     a=e
-b[0],b[len(b)-1]=b[len(b)-1],b[0]
-b[len(b)//2-1],b[len(b)//2+1]=b[len(b)//2+1],b[len(b)//2-1]
+q=len(b)-1
+for i in range(q//2):
+    b[i],b[q-i]=b[q-i],b[i]
+    print(b)
 print(b)
 #print(b[::-1])
