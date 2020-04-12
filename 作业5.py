@@ -8,6 +8,5 @@ while e!=0:
 q=len(b)-1
 for i in range(q//2):
     b[i],b[q-i]=b[q-i],b[i]
-    print(b)
 print(b)
 #print(b[::-1])
