@@ -15,7 +15,7 @@ for h in range(4):
     xs=xs*2
     if xs>=1:
         xsl.append(str(1))
-        xs-1
+        xs=xs-1
     elif xs<1:
         xsl.append(str(0))
 print(''.join(b)+"."+''.join(xsl))
