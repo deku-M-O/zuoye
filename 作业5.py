@@ -1,6 +1,8 @@
-a=int(input("请输入需要转换的数字："))
+a=float(input("请输入需要转换的数字："))
 b=[]
 e=100
+zs=int(a)
+xs=a-zs
 while e!=0:
     e=a//2
     b.append(a%2)
