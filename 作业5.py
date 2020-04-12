@@ -4,9 +4,9 @@ e=100
 zs=int(a)
 xs=a-zs
 while e!=0:
-    e=a//2
+    e=zs//2
     b.append(a%2)
-    a=e
+    zs=e
 q=len(b)-1
 for i in range(q//2):
     b[i],b[q-i]=b[q-i],b[i]
