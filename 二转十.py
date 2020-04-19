@@ -6,5 +6,5 @@ for i,j in enumerate(a[0]):
 print(b)
 p=0
 for l,h in enumerate(a[1]):
-    p+=int(h)*2**(-len(a[1])-1-l)
+    p+=int(h)*2**(-1-l)
 print(p+b)
