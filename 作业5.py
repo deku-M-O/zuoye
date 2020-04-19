@@ -23,3 +23,4 @@ for h in range(yxs):
         break
 print(''.join(b)+"."+''.join(xsl))
 #print(b[::-1])
+b.split('.')
